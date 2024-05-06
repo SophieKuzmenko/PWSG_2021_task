@@ -1,0 +1,34 @@
+Website content:
+------------------------------------------------------
+Driver	Marian Zdzisławski
+Vehicle	W1 ZBYCH
+No.	Id			Recipient										Address															Package size
+1.	AFA124521	Warsaw University of Technology					[search-icon]Plac Politechniki 1, 00-661 Warszawa				XL
+2.	AFA178220	Warsaw University								[search-icon]ul. Krakowskie Przedmieście 26/28, 00-927 Warszawa	L
+3.	AFG906212	Cardinal Stefan Wyszyński University in Warsaw	[search-icon]ul. Dewajtis 5, 01-815, Warszawa					S
+4.	GHK122112	SGH Warsaw School of Economics					[search-icon]al. Niepodległości 162, 02-554 Warszawa			M
+5.	KLP967834	Warsaw University of Life Sciences				[search-icon]ul. Nowoursynowska 166, 02-787 Warszawa			XL
+------------------------------------------------------
+
+Create a website similiar to the one provided in screenshots:
+ * 1 pt. Title of the website is set to "Shipping lists", the icon is set to the provided the package image, and styles are provide in the separate CSS document.
+ * 1 pt. Upper table has a black outside border and lightcyan background (completely filling the insides of the table).
+ * 1 pt. There is a 1em padding on the left and right side of the upper table, the row titles are properly marked, row titles are aligned to left and row values are aligned to right
+ * 1 pt. Links are formatted with steelblue and no underscore and lead to the Nominatim geocoding service (with proper address being provided) eg. https://nominatim.openstreetmap.org/ui/search.html?street=Plac+Politechniki+1&city=Warszawa&country=Poland&postalcode=00-661
+ * 1 pt. Next to the link there is a small search icon - roughly of the same height as the text (it's height is directly related to the text size)
+ * 2 pt. Both tables stretch to the whole width of the window, but no more than 800px and the tables are centered
+ * 1 pt. Left and right columns in the lower table have smaller width than the rest of the columns (as they present only the short identifiers)
+ * 2 pt. The tables are properly presented on mobile phone (use built in browser emulator to check it), take special care that the whole content is visible and does not leak over the table cell border (closely observe the provided screenshots)
+ * 2 pt. The website validates correctly at https://validator.w3.org/
+ 
+ Proszę stworzyć stronę podobną do tej z dołączonych zrzutów ekranu:
+ * 1 pt. Tytuł strony to "Shipping lists", obok niego wyświetla się dostarczona ikona z paczką, a arkusz stylów jest dołączony jako osobny plik
+ * 1 pt. Górna tabela ma czarną zewnętrzną ramkę oraz tło w kolorze lightcyan (całkowicie wypełniające wnętrze tabeli)
+ * 1 pt. Napisy w górnej tabeli są odsunięte o 1em od lewej i prawej krawędzi, lewa kolumna jest oznaczona jako kolumna nagłówkowa, oraz jest wyrównana do lewej, a prawa kolumna z wartościami, jest wyrównana do prawej
+ * 1 pt. Hiperłącza mają kolor steelblue i brak podkreślenia. Prowadzą do geokodowania w serwisie Nominatim,  z podanym prawidłowym adresem np. https://nominatim.openstreetmap.org/ui/search.html?street=Plac+Politechniki+1&city=Warszawa&country=Poland&postalcode=00-661
+ * 1 pt. Obok linków znajduje się mała ikona wyszukiwania (również dostarczona) o wielkości bezpośrednio powiązanej z wielkością czcionki
+ * 2 pt. Obie tabele są rozciągnięte na całą stronę, ale nie więcej niż na 800px, w którym to przypadku tabela jest wyśrodkowana w dostępnej przestrzeni
+ * 1 pt. Lewa i prawa kolumna dolnej tabeli są odpowiednio węższe, gdyż zawierają wyłącznie identyfikatory
+ * 2 pt. Tabele poprawnie wyświetlają się na ekranie telefonu (proszę sprawdzić to w emulatorze przeglądarki), proszę zwrócić szczególną uwagę na to, żeby cała treść była widoczna i znajdowała się wewnątrz komórek tabeli (proszę się uważnie przyjrzeć jak jest zawijany tekst w dostarczonym przykładzie)
+ * 2 pt. Strona przechodzi bezbłędnie walidację na https://validator.w3.org/
+ 
